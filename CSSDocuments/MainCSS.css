@@ -1,0 +1,173 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #333333, #000000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+  border-radius: 5%;
+  border: 2px solid #ffffff;
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  max-width: 2000px;
+  max-height: 100px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.navbar .navbar-image {
+  margin-left: 1250px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 15px;
+  white-space: nowrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #b2001e;
+}
+
+
+
+.welcome-section {
+  text-align: center;
+  padding: 200px 0;
+  color: #ffffff;
+}
+
+.welcome-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+
+
+.hero-section {
+  text-align: center;
+  padding: 170px 0;
+  color: #ffffff;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b2001e;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  transform: scale(1.1);
+}
+
+
+
+.featured-videos {
+  text-align: center;
+  padding: 0px 0;
+  color: #ffffff;
+}
+
+.featured-videos p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.featured-videos h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.space-between-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.space-between-image a {
+  margin-bottom: 20px;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    width: 100%;
+    margin-top: -5px;
+  }
+
+  .navbar li {
+    display: block;
+    background-color: #000000;
+    text-align: center;
+  }
+}
+
+.navbar .navbar-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar .navbar-image:hover {
+  transform: scale(1.1);
+}
