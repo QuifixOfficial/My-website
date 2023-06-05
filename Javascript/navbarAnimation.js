@@ -19,7 +19,7 @@ function showAlert() {
   function rotateImage() {
     var img = document.getElementById('img_5851');
     img.classList.toggle('rotate');
-    var audio = new Audio('Audo/jixaw-metal-pipe-falling-sound.mp3');
+    var audio = new Audio('Audio/jixaw-metal-pipe-falling-sound.mp3');
     audio.play();
   }
   
