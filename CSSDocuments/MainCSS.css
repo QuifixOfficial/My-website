@@ -41,7 +41,8 @@ img {
 }
 
 .navbar .navbar-image {
-  margin-left: 1250px;
+  position: absolute;
+  right: 0;
 }
 
 .navbar li {
